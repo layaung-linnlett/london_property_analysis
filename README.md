@@ -145,19 +145,6 @@ Largest price discount to London average (33.2%) in the dataset. Barking Riversi
 
 ---
 
-## Portfolio Context
-
-This project complements a **Geographically Weighted Regression (GWR) spatial analysis** project (Bristol housing market) in my portfolio — together they demonstrate:
-
-- Traditional regression and price modelling
-- Spatial econometrics and geographic weighting
-- Investment scoring and multi-factor ranking
-- End-to-end data product building with dashboards
-
-Both projects use **real open government data**, production-grade code structure, and are framed around business decisions rather than academic exercises.
-
----
-
 ## Tech Stack
 
 | Tool | Use |
