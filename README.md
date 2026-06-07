@@ -2,7 +2,7 @@
 
 > **Business Question:** Which London boroughs represent the best investment opportunities based on price trends, growth potential, and risk indicators?
 
-Built as a portfolio project targeting a **Graduate Data Analyst** role at a London property investment tech startup. This project mirrors the analytical workflow of a real investment data team — from raw open data to a scored, ranked investment recommendation engine with an interactive dashboard.
+This project mirrors the analytical workflow of a real investment data team — from raw open data to a scored, ranked investment recommendation engine with an interactive dashboard.
 
 ---
 
