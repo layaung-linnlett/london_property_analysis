@@ -21,11 +21,12 @@ st.divider()
 col1, col2, col3 = st.columns(3)
 
 top_borough = df_scores.loc[df_scores['investment_score'].idxmax(), 'area_name']
+best_cagr_borough = df_scores.loc[df_scores['cagr_10yr'].idxmax(), 'area_name']
 best_cagr = df_scores['cagr_10yr'].max() * 100
 london_median = df_scores['price_2024'].median()
 
 col1.metric("Top Scored Borough", top_borough, "BUY signal")
-col2.metric("Best 10-Year CAGR", f"{best_cagr:.1f}%", "Waltham Forest")
+col2.metric("Best 10-Year CAGR", f"{best_cagr:.1f}%", best_cagr_borough)
 col3.metric("London Median Price (2024)", f"£{london_median:,.0f}")
 
 st.divider()
